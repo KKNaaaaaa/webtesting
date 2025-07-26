@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <img src="images/foto.jpeg" alt="Foto Header" style="width: 100%; max-height: 500px; object-fit: cover;">
+  <title>KKN Nagari Ulakan 2025 | Cerita Pengabdian Mahasiswa</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 15px;
+      display: inline-block;
+    }
+    nav ul li a:hover {
+      background: #2c3e50;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* Tambahan CSS untuk tampilan foto anggota */
+    .anggota-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .anggota-card {
+      background: #ecf0f1;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .anggota-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .anggota-card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      border: 3px solid #2c3e50;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>KKN NAGARI ULAKAN 2025</h1>
+      <p>Mengabdi, Berbagi, Menginspirasi</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#beranda">Beranda</a></li>
+      <li><a href="#images/foto.jpeg">Profil</a></li>
+      <li><a href="#artikel">Cerita</a></li>
+      <li><a href="#galeri">Galeri</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section id="beranda">
+      <h2>Selamat Datang di Website KKN Ulakan 2025</h2>
+      <p>
+        Website ini dibuat sebagai media dokumentasi dan publikasi kegiatan pengabdian mahasiswa Universitas Andalas di Nagari Ulakan, Kabupaten Padang Pariaman. Selama lebih dari satu bulan, kami berbaur bersama masyarakat, belajar dari kearifan lokal, serta berkontribusi lewat berbagai program sosial, pendidikan, lingkungan, dan ekonomi.
+      </p>
+    </section>
+
+    <section id="anggota">
+      <h2>Anggota Tim KKN</h2>
+      <p>Berikut adalah profil singkat dari anggota KKN Nagari Ulakan 2025:</p>
+      <div class="anggota-grid">
+        <div class="anggota-card">
+          <img src="images/foto.jpeg" alt="Aini" />
+          <h3>Aini Zahra</h3>
+          <p>Koordinator Posko<br>Jurusan Pendidikan Biologi</p>
+        </div>
+        <div class="anggota-card">
+          <img src="images/foto.jpeg" alt="Rahmat" />
+          <h3>Rahmat Hidayat</h3>
+          <p>Divisi Sosial & Keagamaan<br>Teknik Informatika</p>
+        </div>
+        <div class="anggota-card">
+          <img src="images/foto.jpeg" alt="Salsa" />
+          <h3>Salsa Nurul</h3>
+          <p>Divisi Pendidikan & Literasi<br>Ilmu Komunikasi</p>
+        </div>
+        <div class="anggota-card">
+          <img src="images/foto.jpeg" alt="Yoga" />
+          <h3>Yoga Pratama</h3>
+          <p>Divisi Ekonomi Kreatif<br>Ekonomi Pembangunan</p>
+        </div>
+        <div class="anggota-card">
+          <img src="images/foto.jpeg" alt="Aisyah" />
+          <h3>Aisyah Nurhaliza</h3>
+          <p>Divisi Kesehatan<br>Ilmu Kesehatan Masyarakat</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="profil">
+      <h2>Profil Singkat Nagari dan Tim KKN</h2>
+      <img src="images/foto.jpeg" alt="Foto Profil KKN" width="100%" style="border-radius: 10px; margin-bottom: 15px;">
+      <p>
+        Nagari Ulakan merupakan salah satu nagari tertua di Kabupaten Padang Pariaman yang dikenal sebagai pusat penyebaran agama Islam di Minangkabau. Dipimpin oleh tokoh adat dan agama, masyarakatnya menjunjung tinggi nilai-nilai tradisi dan gotong royong.
+      </p>
+      <p>
+        Tim KKN terdiri dari 10 mahasiswa lintas jurusan: pendidikan, teknologi, kesehatan, pertanian, dan ekonomi. Kami bertekad mengimplementasikan ilmu yang telah dipelajari untuk menjawab kebutuhan masyarakat, dengan pendekatan yang santun dan berkelanjutan.
+      </p>
+    </section>
+
+    <section id="artikel">
+      <h2>Feature Report: Sebulan Mengabdi di Tanah Ulakan</h2>
+      <article>
+        <h3>Hari-hari yang Penuh Makna</h3>
+        <p>
+          Sejak pertama kami menjejakkan kaki di tanah Ulakan, kami disambut dengan penuh hangat oleh para tokoh masyarakat dan warga sekitar. Tradisi adat dan nilai agama begitu kental terasa. Kami ditempatkan di rumah warga dan langsung akrab dengan kehidupan mereka.
+        </p>
+        <p>
+          Program pertama kami dimulai dengan kegiatan gotong royong membersihkan saluran irigasi bersama pemuda nagari. Kami lanjutkan dengan pelatihan UMKM, pembuatan taman baca, dan kelas inspiratif untuk pelajar. Di malam hari, kami aktif dalam kegiatan surau, mendengarkan wirid, dan belajar tentang sejarah Syekh Burhanuddin dari para tetua.
+        </p>
+        <ul>
+          <li>Digitalisasi administrasi nagari dan pelatihan media sosial untuk UMKM</li>
+          <li>Sosialisasi kesehatan dan kebersihan lingkungan</li>
+          <li>Pembuatan pupuk organik dan pengelolaan limbah rumah tangga</li>
+          <li>Kelas literasi dan motivasi untuk anak-anak dan remaja</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Perpisahan yang Menggetarkan Hati</h3>
+        <p>
+          Di hari terakhir, kami mengadakan malam budaya di balai nagari. Anak-anak menampilkan puisi dan tarian, warga menampilkan musik rabab, dan kami menayangkan video dokumentasi kegiatan. Banyak warga yang menitikkan air mata. Hubungan kami bukan hanya antara mahasiswa dan masyarakat, tapi seperti keluarga.
+        </p>
+        <p>
+          Kami meninggalkan Ulakan dengan hati penuh syukur dan semangat baru. Kami yakin, pengabdian ini bukan akhir, melainkan awal dari komitmen kami untuk terus peduli dan berbuat sesuatu yang bermakna bagi negeri.
+        </p>
+      </article>
+    </section>
+
+    <section id="galeri">
+      <h2>Galeri Dokumentasi</h2>
+      <div class="gallery">
+        <img src="images/foto.jpeg" alt="Gotong Royong Bersama warga ulakan yang mana kami pergi pagi dan kami pergi ">
+        <img src="images/foto.jpeg" alt="Kelas Literasi Anak">
+        <img src="images/foto.jpeg" alt="Pelatihan UMKM">
+        <img src="images/foto.jpeg" alt="Malam Perpisahan">
+      </div>
+    </section>
+
+    <section id="kontak">
+      <h2>Hubungi Kami</h2>
+      <p>
+        Email: <a href="mailto:kknulakan2025@gmail.com">kknulakan2025@gmail.com</a><br>
+        Instagram: <a href="https://instagram.com/kkn.ulakan">@kkn.ulakan</a><br>
+        Alamat Posko: Rumah Pak Edi, Jorong Subarang, Nagari Ulakan, Kec. Ulakan Tapakis
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 KKN Nagari Ulakan | Universitas Andalas | Dibuat oleh Divisi Dokumentasi & Media</p>
+  </footer>
+</body>
+</html>
